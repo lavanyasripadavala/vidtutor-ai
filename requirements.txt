@@ -1,0 +1,5 @@
+streamlit
+yt-dlp
+python-dotenv
+openai-whisper
+scikit-learn
