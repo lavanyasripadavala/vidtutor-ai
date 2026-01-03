@@ -1,55 +1,64 @@
-🎥 VidTutor AI
 
-VidTutor AI is an AI-powered learning platform that transforms any YouTube video into an interactive tutor and real-time interview coach. Users can chat with the video content, practice interview questions using voice, and receive automatic scoring and feedback — all without relying on paid AI APIs.
 
-🚀 Features
+````md
+# 🎥 VidTutor AI
 
-🔗 Paste any YouTube link and extract knowledge automatically
+**VidTutor AI** is an AI-powered learning platform that transforms any YouTube video into an interactive tutor and real-time interview coach. Users can chat with video content, practice interview questions using voice, and receive automatic scoring and feedback — all without relying on paid AI APIs.
 
-💬 Tutor Chat — Ask questions and get answers from the video content
+---
 
-🎙️ Voice Interview Mode — Practice interviews by speaking, not typing
+## 🚀 Features
 
-🧠 Automatic question generation, scoring, feedback, and model answers
+- 🔗 Paste any YouTube link and extract knowledge automatically  
+- 💬 **Tutor Chat** — Ask questions and get answers from the video content  
+- 🎙️ **Voice Interview Mode** — Practice interviews by speaking, not typing  
+- 🧠 Automatic **question generation, scoring, feedback, and model answers**  
+- 🆓 Fully offline & free AI engine (no API limits)  
+- ⚡ Transcript caching for fast performance  
 
-🆓 Fully offline & free AI engine (no OpenAI/Gemini limits)
+---
 
-⚡ Caching for fast performance on repeated videos
+## 🧰 Tech Stack
 
-🧰 Tech Stack
+| Layer | Technology |
+|------|-----------|
+Frontend | Streamlit  
+Speech Processing | Whisper, FFmpeg  
+ML Engine | TF-IDF, Cosine Similarity (scikit-learn)  
+Video Processing | yt-dlp  
+Deployment | Docker, HuggingFace Spaces  
 
-Frontend: Streamlit
+---
 
-Speech Processing: Whisper + FFmpeg
+## 🏗️ How It Works
 
-ML Engine: TF-IDF, Cosine Similarity (scikit-learn)
+1. User pastes a YouTube link  
+2. App extracts transcript from captions or transcribes audio using Whisper  
+3. **Tutor Mode:** Chat with the video content  
+4. **Interview Mode:** Speak answers → get score, feedback & model answers  
+5. Results improve learning and interview performance  
 
-Video Processing: yt-dlp
+---
 
-Deployment: Docker + HuggingFace Spaces
+## 🖥️ Run Locally
 
-🏗️ How It Works
-
-User pastes a YouTube link
-
-App extracts transcript from captions or transcribes audio using Whisper
-
-Tutor mode allows chatting with the video content
-
-Interview mode asks questions, records voice answers, transcribes them, and evaluates responses
-
-App generates score, feedback, missing points, and model answers
-
-🖥️ Run Locally
+```bash
 git clone https://github.com/yourusername/vidtutor-ai
 cd vidtutor-ai
 pip install -r requirements.txt
 streamlit run app.py
+````
 
-🌍 Live Demo
+---
 
-👉 (link)
+## 🌍 Live Demo
 
-📌 Why VidTutor AI?
+👉 *(link)*
 
-VidTutor AI turns passive video watching into active learning and interview preparation by combining natural language processing, speech recognition, and machine learning in one seamless platform.
+---
+
+## 📌 Why VidTutor AI?
+
+VidTutor AI turns passive video watching into active learning and interview preparation by combining AI, speech recognition, and machine learning in one seamless platform.
+
+
